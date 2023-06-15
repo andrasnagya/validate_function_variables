@@ -1,8 +1,10 @@
 # validate_function_variables
 
-This decorator validates the type of arguments and keyword arguments
-    provided to a function. It checks if the types of the provided
-    arguments and keyword arguments match the expected types. If the types
+* This decorator validates the type of arguments and keyword arguments
+    provided to a function. 
+* It checks if the types of the provided
+    arguments and keyword arguments match the expected types. 
+* If the types
     match, it calls the function with the arguments and keyword arguments.
     If they do not match, it returns None.
 
