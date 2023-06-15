@@ -7,18 +7,21 @@ This decorator validates the type of arguments and keyword arguments
     If they do not match, it returns None.
 
 Args:
-    expected_arg_types (List[Any]): A list of types that the decorator
+    ```expected_arg_types (List[Any])```: A list of types that the decorator
     should expect for the arguments of the decorated function. The
     order matters.
  
-    expected_kwarg_types (Dict[str, Any], optional): A dictionary
-    mapping keyword argument names to expected types for the decorated
-    function. If a keyword argument is not in this dictionary or its
-    type does not match the expected type, the decorated function will
-    not be called.
+    ```
+    expected_kwarg_types (Dict[str, Any], optional)
+    ```  
+   
+A dictionary mapping keyword argument names to expected types for the decorated
+function. If a keyword argument is not in this dictionary or its
+type does not match the expected type, the decorated function will
+not be called.
 
 Returns:
-    Callable[[F], F]: A decorator which can be applied to a function.
+    ```Callable[[F], F]```: A decorator which can be applied to a function.
     When the decorated function is called, the decorator checks the
     types of the arguments and keyword arguments. If they match the
     expected types, the decorated function is called. Otherwise,
