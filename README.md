@@ -1,4 +1,4 @@
-# validate_function_variables
+# Variduck
 
 * This decorator validates the type of arguments and keyword arguments
     provided to a function. 
