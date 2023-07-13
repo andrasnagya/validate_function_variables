@@ -28,13 +28,13 @@ gener_callgraph(){
 
 
 main(){
-    linting 1>> ./housekeeping.log 2>> ./housekeeping.err
-    typehinting 1>> ./housekeeping.log 2>> ./housekeeping.err
-    testing 1>> ./housekeeping.log 2>> ./housekeeping.err
-    securing 1>> ./housekeeping.log 2>> ./housekeeping.err
+    #linting 1>> ./housekeeping.log 2>> ./housekeeping.err
+    #typehinting 1>> ./housekeeping.log 2>> ./housekeeping.err
+    #testing 1>> ./housekeeping.log 2>> ./housekeeping.err
+    #securing 1>> ./housekeeping.log 2>> ./housekeeping.err
 
     #export_env
-    #gener_callgraph
+    #gener_callgraph --no-namespace-packages
 
 }
 
