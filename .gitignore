@@ -1,0 +1,4 @@
+__pycache__
+.mypy_cache
+housekeeping.err
+housekeeping.log
