@@ -42,5 +42,6 @@ Example:
 
 Contact information:
 ```
-At this point if you wish to contact the dev team, please post an issue, and probbaly a pull request to th readme with your questions.
+At this point if you wish to contact the dev team, please post an issue
+and probbaly a pull request to the readme with your questions.
 ```
