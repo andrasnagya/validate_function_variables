@@ -39,3 +39,8 @@ Example:
     def wrong_func(arg_1: Any, arg_2: Any, kwarg_1: Any = 0, kwarg_2: Any = "") -> bool:
         return True
 ```
+
+Contact information:
+```
+At this point if you wish to contact the dev team, please post an issue, and probbaly a pull request to th readme with your questions.
+```
