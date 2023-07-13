@@ -13,8 +13,8 @@ coverage_testing(){
 }
 
 main(){
-    # unit_testing
-    coverage_testing
+    unit_testing
+    coverage_testing 
 }
 
 main
